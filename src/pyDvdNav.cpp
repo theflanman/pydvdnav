@@ -374,7 +374,8 @@ static PyObject *DvdNav_get_angles(dvdNav *self, PyObject *args) {
         if (m == NULL)
             return NULL;
 
-        if (PyModule_AddObjectRef(m, "DvdNav", (PyObject *) &DvdNavType) < 0) {
+        if (PyModule_AddObject(m, "DvdNav", (PyObject *) &DvdNavType) < 0) {
+            Py_DECREF(&DvdNavType);
             Py_DECREF(m);
             return NULL;
         }
