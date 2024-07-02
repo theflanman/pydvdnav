@@ -17,7 +17,7 @@ setup(
             include_dirs=['/usr/include'],
             libraries=['dvdnav'],
             sources=['src/pyDvdNav.cpp', 'src/DvdNav.cpp'],  # all sources are compiled into a single binary file
-            extra_compile_args=['-g3'],
+            extra_compile_args=['-g3', '-std=c++20'],
         ),
     ]
 )
