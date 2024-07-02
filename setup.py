@@ -4,7 +4,7 @@ from setuptools import Extension, setup
 
 setup(
     name='pydvdnav',
-    version='1.0.0',
+    version='0.0.1',
     author='Connor Flanigan',
     author_email='connorflanigan@gmail.com',
     license='MIT',
