@@ -5,6 +5,8 @@
 #include "dvdnav/dvdnav.h"
 #include "DvdNav.h"
 
+#include <tuple>
+
 #define DVD_READ_CACHE 1
 #define DVD_LANGUAGE "en"
 

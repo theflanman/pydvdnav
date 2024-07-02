@@ -8,6 +8,7 @@
 
 #include <cstring>
 #include <stdexcept>
+#include <tuple>
 
 #define DVD_READ_CACHE 1
 #define DVD_LANGUAGE "en"
